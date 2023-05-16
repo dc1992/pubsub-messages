@@ -1,0 +1,15 @@
+{
+    "topic": "your-topic",
+    "event": {
+        "example": "data",
+        "another_example": 1
+    },
+    "attributes": {
+        "event_type": "MyEvent/Type",
+        "project_id": "ProjectId",
+        "data_version": "1.0",
+        "meta_data_version": "1.0",
+        "trace": "",
+        "content_type": "application/json"
+    }
+}

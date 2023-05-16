@@ -1,0 +1,26 @@
+{
+  "name": "pubsub-messages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "clean": "rimraf ./node_modules && rimraf ./build",
+    "build": "npm run clean && npm install && npm run tsc",
+    "start": "node build/index.js",
+    "fresh-start": "npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^3.3.0",
+    "dotenv": "^16.0.3",
+    "path": "^0.12.7"
+  }
+}
